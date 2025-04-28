@@ -46,7 +46,7 @@ const MembershipPayments = () => {
               <td>{payment.payment_date}</td>
               <td>{payment.status}</td>
               <td>
-                {payment.status === "Pending" && (
+                {Paystatus == paid&& (
                   <>
                     <Button variant="success" onClick={() => handlePaymentStatus(payment.id, "Paid")}>Mark as Paid</Button>{" "}
                     <Button variant="danger" onClick={() => handlePaymentStatus(payment.id, "Failed")}>Mark as Failed</Button>
