@@ -17,8 +17,8 @@ const MembershipPayments = () => {
 
   
 
-  const handlePay= (type,Amount,Payment Date) => {
-    setPayments(payments.map(payment => payment.id === id ? { ...payment, status: newStatus } : payment));
+  const handlePay=ugfgfghjkhff) => {
+    setPayments(map(payment => payment.id === id ? { ...payment, status: newStatus } : payment));
   };
 
   return (
